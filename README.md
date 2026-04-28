@@ -30,6 +30,7 @@ Tìm đến file: backend/src/main/resources/application.properties.
 spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce
 
 spring.datasource.username=tên_đăng_nhập
+
 spring.datasource.password=mật_khẩu
 
 **Khởi chạy:**
