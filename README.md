@@ -1,3 +1,3 @@
-'Bắt đầu với Spring Boot'
-
-Dự án Website bán hàng thời trang tích hợp thanh toán và quản lý đơn hàng. Built with Java Spring Boot &amp; React.
+##Bắt đầu với SpringTool
+---
+Dự án này được khởi tạo bằng công cụ **SpringTool**
