@@ -3,6 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 *.class
 *.log
+logs/
 *.ctxt
 .mtj.tmp/
 *.jar
@@ -15,6 +16,13 @@ target/
 hs_err_pid*
 replay_pid*
 
+# --- IDE Eclipse & STS ---
+.metadata/
+.settings/
+.classpath
+.project
+.recommenders/
+
 # --- FRONTEND (Node/React/Vite) ---
 node_modules/
 dist/
@@ -26,7 +34,7 @@ build/
 .env.production.local
 .eslintcache
 
-# --- IDE & HỆ ĐIỀU HÀNH ---
+# --- IDE VS Code & HỆ ĐIỀU HÀNH ---
 .vscode/
 .idea/
 *.iws
