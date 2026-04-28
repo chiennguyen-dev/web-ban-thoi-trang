@@ -27,7 +27,6 @@ Tìm đến file: backend/src/main/resources/application.properties.
 
 **Chỉnh sửa thông tin đăng nhập MySQL:**
 
-Properties
 spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce
 spring.datasource.username=tên_đăng_nhập
 spring.datasource.password=mật_khẩu
@@ -42,19 +41,11 @@ Dấu hiệu thành công: Khi thấy dòng chữ Started EcommerceApplication i
 
 Bước 3: Cấu hình và Chạy Frontend (ReactJS)
 ---
-Mở Visual Studio Code.
-
-**Di chuyển vào thư mục:**
-
-Mở một Terminal mới.
-
-Gõ lệnh: cd Frontend
+**Mở Git Bash tại thư mục Frontend.**
 
 **Cài đặt thư viện:**
 
 Gõ lệnh: npm install
-
-Lưu ý: Việc này chỉ cần làm 1 lần duy nhất để tải các gói cần thiết về máy.
 
 **Khởi chạy giao diện:**
 
