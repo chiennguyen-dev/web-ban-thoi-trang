@@ -5,7 +5,7 @@ Dự án này được khởi tạo bằng **Java Spring Boot** và **ReactJS**
 ---
 Bước 1: Chuẩn bị môi trường 
 ---
-Trước khi bắt đầu, hãy đảm bảo máy tính đã cài đặt các công cụ sau:
+**Trước khi bắt đầu, hãy đảm bảo máy tính đã cài đặt các công cụ sau:**
 
 Java JDK (bản 17 trở lên): Để chạy Backend Spring Boot.
 
@@ -15,24 +15,24 @@ MySQL Server: Để quản lý cơ sở dữ liệu.
 
 Bước 2: Cấu hình và Chạy Backend (Java Spring Boot)
 ---
-Tạo Cơ sở dữ liệu:
+**Tạo Cơ sở dữ liệu:**
 
 Mở MySQL Workbench.
 
 Tạo một Database mới tên là: ecommerce.
 
-Cấu hình kết nối:
+**Cấu hình kết nối:**
 
 Tìm đến file: backend/src/main/resources/application.properties.
 
-Chỉnh sửa thông tin đăng nhập MySQL:
+**Chỉnh sửa thông tin đăng nhập MySQL:**
 
 Properties
 spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce
 spring.datasource.username=tên_đăng_nhập
 spring.datasource.password=mật_khẩu
 
-Khởi chạy:
+**Khởi chạy:**
 
 Mở Git Bash tại thư mục Backend.
 
@@ -42,19 +42,21 @@ Dấu hiệu thành công: Khi thấy dòng chữ Started EcommerceApplication i
 
 Bước 3: Cấu hình và Chạy Frontend (ReactJS)
 ---
-Di chuyển vào thư mục:
+Mở Visual Studio Code.
+
+**Di chuyển vào thư mục:**
 
 Mở một Terminal mới.
 
 Gõ lệnh: cd Frontend
 
-Cài đặt thư viện:
+**Cài đặt thư viện:**
 
 Gõ lệnh: npm install
 
 Lưu ý: Việc này chỉ cần làm 1 lần duy nhất để tải các gói cần thiết về máy.
 
-Khởi chạy giao diện:
+**Khởi chạy giao diện:**
 
 Gõ lệnh: npm start
 
